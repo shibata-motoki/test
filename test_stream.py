@@ -12,5 +12,5 @@ def get_image(self, top_data):
                 'width': a['images'][0]['width']
                 }}
     top_data['hits'].insert(0, d)
-
+    # test
     self.top_data = top_data
